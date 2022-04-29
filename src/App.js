@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { Fragment } from "react";
 //Components
-import Header from './components/Header';
+import Header from "./components/Header";
+import Home from "./components/Home";
 
 //Styles
-import { GlobalStyle } from './GlobalStyles';
+import { GlobalStyle } from "./GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
       <Header />
-      Start here.
+      <Home />
       <GlobalStyle />
-    </div>
+    </Fragment>
   );
 }
 

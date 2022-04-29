@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
     :root{
         --maxWith: 1280px;
         --white: #fff;
@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle `
 
     *{
         box-sizing: border-box;
-        fonr-family: 'Abel', sans-serif;
+        font-family: 'Abel', sans-serif;
     }
 
     body{
@@ -39,4 +39,4 @@ export const GlobalStyle = createGlobalStyle `
         }
     }
 
-`
+`;
